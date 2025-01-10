@@ -343,7 +343,7 @@ function App() {
         <div className="App-header-content">
           <h1>Welcome to Daniel's Portfolio</h1>
           <p>
-            Here you will find information about my projects, skills, and professional achievements.
+            Scroll down to find information about my projects, skills, and professional achievements.
           </p>
           <div className="contact-info">
             <a href="https://github.com/HerreroRocher" target="_blank" rel="noopener noreferrer">GitHub</a>
