@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import educationImg from './education_img.jpg'; // Ensure you have this image in the src folder
 import projectsImg from './projects_img.jpg'; // Ensure you have this image in the src folder
+import experienceImg from './experience_img.jpg'; // Ensure you have this image in the src folder
 import achievementsImg from './achievements_img.jpg'; // Ensure you have this image in the src folder
 import skillsImg from './skills_img.jpg'; // Ensure you have this image in the src folder
 import languagesImg from './languages_img.jpg'; // Ensure you have this image in the src folder
@@ -10,20 +11,81 @@ import schoolProjectsImg from './school_projects_img.jpeg'; // Ensure you have t
 
 function EducationInfo() {
   return (
+    <>
+    <Uni />
+    <A_Levels />
+    <GCSEs />
+    </>
+  );
+}
+
+function Uni(){
+  return (
     <div className="information">
-      <h3>Education</h3>
-      <h4>The University of Manchester</h4>
+    <h4>The University of Manchester</h4>
+    <p>Location: Manchester, UK</p>
+    <p>Degree: BSc in Computer Science with Industrial Experience</p>
+    <p>Duration: Sep 2023 ‑ Jul 2027</p>
+    <p>• Expected graduation in 2027</p>
+    <p>• Expected first class degree</p>
+    <p>• Achieved course units: Computer Engineering(63%), Computer Architecture(77%), Programming 1(71%), First Year Team Project(78%), Data Science(75%), Operating Systems(67%), Computation(72%)</p>
+    <p>• Current course units: Software Engineering, Programming Languages & Paradigms, Algorithms and Data Structures, Logic and Modelling, Intro to AI, Databases, Machine Learning, Distributed Systems</p>
+  </div>
+  )
+}
+
+function A_Levels(){
+  return (
+    <div className="information">
+    <h4>Finchley Catholic High School</h4>
+    <p>Location: London, UK</p>
+    <p>Duration: Sep 2021 ‑ Jun 2023</p>
+    <h5>A‑Levels:</h5>
+    <p>• Physics - A*</p>
+    <p>• Mathematics - A*</p>
+    <p>• Computer Science - A</p>
+    </div>
+  )
+}
+
+function GCSEs(){
+  return (
+    <div className="information">
+    <h4>Finchley Catholic High School</h4>
+    <p>Location: London, UK</p>
+    <p>Duration: Sep 2018 ‑ Jun 2021</p>
+    <h5>GCSEs:</h5>
+    <p>• Business - 9</p>
+    <p>• Biology - 9</p>
+    <p>• Physics - 9</p>
+    <p>• Mathematics - 9</p>
+    <p>• French - 8</p>
+    <p>• Chemistry - 8</p>
+    <p>• Computer Science - 7</p>
+    <p>• English Literature - 7</p>
+    <p>• English Language - 6</p>
+    <p>• Religious Studies - 6</p>
+    </div>
+  )
+}
+
+function EmployeeManagementSystem() {
+  return (
+    <div className="information">
+      <h4>Employee Management System (PHP and MySQL)</h4>
       <p>Location: Manchester, UK</p>
-      <p>Degree: BSc in Computer Science with Industrial Experience</p>
-      <p>Duration: Sept 2023 ‑ Jul 2027</p>
-      <p>• Achieved course units: Computer Engineering(63%), Computer Architecture(77%), Programming 1(71%), First Year Team Project(78%), Data Science(75%), Operating Systems(67%), Computation(72%)</p>
-      <p>• Current course units: Software Engineering, Programming Languages & Paradigms, Algorithms and Data Structures, Logic and Modelling, Intro to AI, Databases, Machine Learning, Distributed Systems</p>
-      <p>• Expected first class degree (2027)</p>
-      <h4>Finchley Catholic High School</h4>
-      <p>Location: London, UK</p>
-      <p>Duration: Sept 2016 ‑ Jun 2023</p>
-      <p>• A‑Levels: A* in Physics, A* in Mathematics, A in Computer Science (160 UCAS points)</p>
-      <p>• GCSEs: 11 A*‑B including Mathematics, Computer Science and Physics</p>
+      <p>Institution: The University of Manchester</p>
+      <p>Duration: Nov 2024</p>
+      <p>• Developed a comprehensive employee management system using PHP and MySQL, creating multiple portals for various functionalities.</p>
+      <p>• Implemented an employee directory for management to search and view employee details efficiently.</p>
+      <p>• Created a portal for management to grant raises and promotions to employees, streamlining the salary adjustment process.</p>
+      <p>• Developed a portal for employees to request leave.</p>
+      <p>• Built a portal for managers to view, approve, or deny leave requests, and to access leave statistics per department.</p>
+      <p>• Designed a portal to generate comprehensive payroll summaries, enhancing payroll management and accuracy.</p>
+      <p>• Implemented a portal to view current month birthdays.</p>
+      <p>• Created a portal for contract terminations and auditing, ensuring compliance and thorough record-keeping.</p>
+      <p>• Technical Skills: PHP, MySQL, Web Development, Database Management.</p>
+      <p>• Soft Skills: Project Management, Problem-Solving, Attention to Detail, Organisational Skills.</p>
     </div>
   );
 }
@@ -69,7 +131,7 @@ function FoodFinder() {
       <h4>Food Finder (First Year Team Project using Node.js)</h4>
       <p>Location: Manchester, UK</p>
       <p>Institution: The University of Manchester</p>
-      <p>Duration: Sept 2023 ‑ Apr 2024</p>
+      <p>Duration: Sep 2023 ‑ Apr 2024</p>
       <p>• Collaborated in an 8‑person team to create a website, which takes user input to return any dishes, or similar, in the area, and giving comparative results.</p>
       <p>• Employed algorithms in JavaScript to use with the HTML/CSS created by my teammates, for the creation of an interactive website.</p>
       <p>• Solely created and used an API to access a relational database, to return relevant data from a local database using a Node.js server.</p>
@@ -117,8 +179,7 @@ function JungleShooter() {
 function ConnectFour() {
   return (
     <div className="information">
-      <h4>Connect Four (Game using Unity/C#)</h4>
-      <p>Location: Remote</p>
+      <h4><a href= "https://github.com/HerreroRocher/connect-four" target="_blank" rel="noopener noreferrer">Connect Four</a> (Game using Unity/C#)</h4>
       <p>Duration: Aug 2024</p>
       <p>• Designed and developed a full‑featured Connect Four game using the Unity engine, implementing core gameplay mechanics such as turn‑based play, win condition detection, and an interactive user interface.</p>
       <p>• Utilised C# to manage game logic, player interactions, and dynamic UI updates, ensuring a seamless and responsive gaming experience.</p>
@@ -136,9 +197,8 @@ function ConnectFour() {
 function Infoboard() {
   return (
     <div className="information">
-      <h4><a href="https://herrerorocher.github.io/infoboard" target="_blank" rel="noopener noreferrer">Infoboard (Web app using React.js)</a></h4>
-      <p>Location: Remote</p>
-      <p>Duration: Aug 2024</p>
+      <h4><a href="https://herrerorocher.github.io/infoboard" target="_blank" rel="noopener noreferrer">Infoboard</a> (Web app using React.js)</h4>
+      <p>Duration: Jul 2024</p>
       <p>• Solely developed a responsive web application using React.js, which integrates multiple API calls to provide users with real‑time information.</p>
       <p>• Implemented sections for current weather in any chosen location, bus times for selected bus stops, and tube service statuses for selected lines.</p>
       <p>• Employed data manipulation techniques, including sorting, filtering, and combining API responses to create a cohesive user experience.</p>
@@ -151,13 +211,42 @@ function Infoboard() {
   );
 }
 
+function HigherOrLowerGame() {
+  return (
+    <div className="information">
+      <h4><a href="https://github.com/HerreroRocher/HigherOrLower" target="_blank" rel="noopener noreferrer">Higher or Lower</a> (Python Game)</h4>
+      <p>Duration: Nov 2024</p>
+      <p>• Developed an interactive higher or lower game using Python, allowing users to personalise game rules and settings.</p>
+      <p>• Utilised Python libraries such as Tkinter for GUI development, providing an engaging and interactive user experience.</p>
+      <p>• Incorporated features for tracking user scores, displaying high scores, and providing feedback on user guesses.</p>
+      <p>• Ensured the game logic was robust and efficient, handling edge cases and invalid inputs gracefully.</p>
+      <p>• Technical Skills: Python, Tkinter, GUI Development, Game Logic, User Interaction, Data Handling.</p>
+      <p>• Soft Skills: Creativity, Problem-Solving, User Experience Design, Attention to Detail.</p>
+    </div>
+  );
+}
+
+function GradeCalculator() {
+  return (
+    <div className="information">
+      <h4><a href="https://github.com/HerreroRocher/grade-calculator" target="_blank" rel="noopener noreferrer">Grade Calculator</a> (CLI Tool)</h4>
+      <p>Duration: Oct 2024</p>
+      <p>• Developed a command-line interface (CLI) tool in Python to calculate the minimum exam score needed to achieve a target grade based on coursework and exam splits.</p>
+      <p>• Implemented functionality to input course details, including coursework/exam split, individual coursework scores, and their respective weightings.</p>
+      <p>• Designed the tool to handle various grading schemes and provide accurate calculations for different course structures.</p>
+      <p>• Conducted thorough testing to validate the accuracy of calculations and ensure the tool's reliability.</p>
+      <p>• Technical Skills: Python, CLI Development, Data Handling, User Interaction, Error Handling.</p>
+      <p>• Soft Skills: Analytical Thinking, Problem-Solving, Attention to Detail, User Experience Design.</p>
+    </div>
+  );
+}
+
 
 function CSVReader() {
   return (
     <div className="information">
-      <h4>CSV Reader (Web app using React.js)</h4>
-      <p>Location: Remote</p>
-      <p>Duration: Aug 2024</p>
+      <h4><a href = "https://github.com/HerreroRocher/csv-reader" target="_blank" rel="noopener noreferrer">CSV Reader</a> (Web app using React.js)</h4>
+      <p>Duration: Jul 2024</p>
       <p>• Developed a React.js application to verify ISIN numbers against a local CSV file of approved reporting offshore funds from the gov.uk website.</p>
       <p>• Learned and applied fundamental React concepts, including useEffect and useState hooks, to manage component state and side effects.</p>
       <p>• Enhanced problem‑solving skills through the development of an algorithm that checks and validates ISIN numbers.</p>
@@ -174,7 +263,6 @@ function PersonalPortfolio() {
   return (
     <div className="information">
       <h4>Personal Portfolio (Web App using React.js)</h4>
-      <p>Location: Remote</p>
       <p>Duration: Ongoing</p>
       <p>• Designed and developed a personal portfolio website using React.js, showcasing projects, skills, and professional achievements.</p>
       <p>• Implemented responsive design principles to ensure the website is accessible and visually appealing on various devices.</p>
@@ -190,9 +278,10 @@ function PersonalPortfolio() {
 function SchoolProjects() {
   return (
     <>
-      <HashSetVSBSTree />
-      <MagicBakery />
       <FoodFinder />
+      <HashSetVSBSTree />
+      <EmployeeManagementSystem />
+      <MagicBakery />
       <Dodger />
       <JungleShooter />
     </>
@@ -202,11 +291,87 @@ function SchoolProjects() {
 function PersonalProjects() {
   return (
     <>
-      <ConnectFour />
       <Infoboard />
-      <CSVReader />
+      <ConnectFour />
       <PersonalPortfolio />
+      <HigherOrLowerGame />
+      <CSVReader />
+      <GradeCalculator />
     </>
+  );
+}
+
+function ExperienceInfo() {
+  return (
+    <>
+      <Restaurant_65A />
+      <MonmouthKitchen />
+      <RitzRestaurant />
+      <TakaMarylebone />
+    </>
+  )
+}
+
+function Restaurant_65A() {
+  return (
+    <div className="information">
+      <h4>65A Restaurant</h4>
+      <p>Location: London, UK</p>
+      <p>Position: Waiter</p>
+      <p>Duration: Jul 2024 ‑ Aug 2024</p>
+      <p>• Worked as part of a team of 3‑4 waiters per service, managing my own section independently.</p>
+      <p>• Assumed increased responsibilities, demonstrating serious commitment and quick learning.</p>
+      <p>• Provided attentive and efficient service, handling guest interactions, managing orders, and resolving service issues.</p>
+      <p>• Consistently received positive feedback from guests for hospitality and professionalism.</p>
+      <p>• Soft Skills: Leadership, Teamwork, Quick Learning, Communication, Time Management, Organisation.</p>
+    </div>
+  );
+}
+
+function MonmouthKitchen() {
+  return (
+    <div className="information">
+      <h4>Monmouth Kitchen</h4>
+      <p>Location: London, UK</p>
+      <p>Position: Waiter</p>
+      <p>Duration: Aug 2023 ‑ Sept 2023</p>
+      <p>• Attained employment for a role within a team of six waiters.</p>
+      <p>• Attended several training sessions and engaged in additional out‑of‑work activities to maximise my potential as a waiter.</p>
+      <p>• Significantly increased my leadership, teamwork, and communication skills due to much larger responsibilities than previous employment, including conversing with guests, attending to service issues, taking and managing orders, and serving guests.</p>
+      <p>• Assisted in the management of my assigned section of the restaurant during open hours, ensuring efficiency and efficacy to please our guests.</p>
+      <p>• Received positive reviews of my hospitality and of our team.</p>
+      <p>• Soft Skills: Teamwork, Time Management, Communication, Organisation, Multi‑Tasking.</p>
+    </div>
+  );
+}
+
+function RitzRestaurant() {
+  return (
+    <div className="information">
+      <h4>The Ritz Restaurant</h4>
+      <p>Location: London, UK</p>
+      <p>Position: Commis Waiter</p>
+      <p>Duration: Oct 2021 ‑ Jan 2023</p>
+      <p>• Collaborated in a team of ten Commis Waiters, for over a year, to assist in the high‑quality service provided by the Ritz Hotel Restaurant.</p>
+      <p>• Collaborated with other teams (Chefs, Head Waiters, Kitchen Porters, Chefs de Rang, etc.) for a seamless service.</p>
+      <p>• Engaged in important time‑sensitive duties, mainly including carrying food from kitchen to restaurant floor, polishing cutlery and plates, deep cleaning and vacuum cleaning the restaurant floor between services.</p>
+      <p>• Soft Skills: Teamwork, Time Management, Communication, Patience, Multi‑Tasking.</p>
+    </div>
+  );
+}
+
+function TakaMarylebone() {
+  return (
+    <div className="information">
+      <h4>Taka Marylebone</h4>
+      <p>Location: London, UK</p>
+      <p>Position: Runner</p>
+      <p>Duration: Sept 2020 ‑ Oct 2021</p>
+      <p>• Cooperated in a team of 2 Runners, for over a year, to provide the Waiters with assistance for the service of guests.</p>
+      <p>• Undertook various duties to enhance the operation, speed and cleanliness of the restaurant.</p>
+      <p>• Regularly engaged in important time‑sensitive duties, when commonly understaffed.</p>
+      <p>• Soft Skills: Teamwork, Time Management.</p>
+    </div>
   );
 }
 
@@ -215,11 +380,11 @@ function SkillsInfo() {
     <div className="information">
       <h3>Skills</h3>
       <h4>Programming</h4>
-      <p>Python (PyGame, Tkinter), HTML/CSS, JavaScript (Node.js, React.js), SQL, Java, Git, Unity, C#, Data Parsing, Algorithm Development, State Management, API Interaction.</p>
+      <p>Python (PyGame, Tkinter, matplotlib), HTML/CSS, JavaScript (Node.js, React.js), MySQL, Java, Git, Unity, PHP, C C#, Shell Scripting, Data Parsing, Algorithm Development, State Management, API Interaction.</p>
       <h4>Soft Skills</h4>
       <p>Problem‑Solving, Analytical Thinking, Attention to Detail, Self‑Learning, Teamwork, Time Management, Communication, Technical Communication, Project Management, Resilience, Passion for Computing.</p>
       <h4>Miscellaneous</h4>
-      <p>ARM Assembly Language, Microsoft Office, Command Prompt, Git Bash, Unix-like systems</p>
+      <p>ARM Assembly Language, Microsoft Office, Command Prompt, Git Bash, Unix-like systems, CLIs, pip, npm</p>
     </div>
   );
 }
@@ -242,6 +407,9 @@ function LanguagesInfo() {
       <h3>Languages</h3>
       <p>English C2 Native</p>
       <p>Spanish C1 Fluent</p>
+      <p>French B1 Intermediate</p>
+      <p>Italian A1 Basic</p>
+      <p>Portuguese A1 Basic</p>
     </div>
   );
 }
@@ -306,6 +474,8 @@ function Section({ title, imageUrl }) {
             <SubsectionPersonalProjects />
           </>
         );
+      case 'Experience':
+        return <ExperienceInfo />;
       case 'Skills':
         return <SkillsInfo />;
       case 'Achievements':
@@ -365,6 +535,7 @@ function App() {
         </section>
         <Section title="Education" imageUrl={educationImg} />
         <Section title="Projects" imageUrl={projectsImg} />
+        <Section title="Experience" imageUrl={experienceImg} />
         <Section title="Skills" imageUrl={skillsImg} />
         <Section title="Achievements" imageUrl={achievementsImg} />
         <Section title="Languages" imageUrl={languagesImg} />
