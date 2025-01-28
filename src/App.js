@@ -380,7 +380,7 @@ function SkillsInfo() {
     <div className="information">
       <h3>Skills</h3>
       <h4>Programming</h4>
-      <p>Python (PyGame, Tkinter, matplotlib), HTML/CSS, JavaScript (Node.js, React.js), MySQL, Java, Git, Unity, PHP, C C#, Shell Scripting, Data Parsing, Algorithm Development, State Management, API Interaction.</p>
+      <p>Python (PyGame, Tkinter, matplotlib), HTML/CSS, JavaScript (Node.js, React.js), MySQL, Java, Git, Unity, PHP, C, C#, Shell Scripting, Data Parsing, Algorithm Development, State Management, API Interaction.</p>
       <h4>Soft Skills</h4>
       <p>Problem‑Solving, Analytical Thinking, Attention to Detail, Self‑Learning, Teamwork, Time Management, Communication, Technical Communication, Project Management, Resilience, Passion for Computing.</p>
       <h4>Miscellaneous</h4>
