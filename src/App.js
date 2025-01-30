@@ -24,7 +24,7 @@ function Uni(){
     <div className="information">
     <h4>The University of Manchester</h4>
     <p>Location: Manchester, UK</p>
-    <p>Degree: BSc in Computer Science with Industrial Experience</p>
+    <p>Degree: BSc with Honours in Computer Science with Industrial Experience</p>
     <p>Duration: Sep 2023 ‑ Jul 2027</p>
     <p>• Expected graduation in 2027</p>
     <p>• Expected first class degree</p>

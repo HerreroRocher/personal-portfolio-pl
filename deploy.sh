@@ -19,5 +19,3 @@ git push
 
 # Deploy the project
 npm run deploy
-
-echo "New version pushed to github and published to public website."
