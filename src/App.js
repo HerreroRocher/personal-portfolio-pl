@@ -15,7 +15,7 @@ import languagesImg from './assets/languages_img.jpg';
 function ExperienceInfo() {
   return (
     <>
-      <Restaurant_65A />
+      <Restaurant65A />
       <MonmouthKitchen />
       <RitzRestaurant />
       <TakaMarylebone />
@@ -23,7 +23,7 @@ function ExperienceInfo() {
   )
 }
 
-function Restaurant_65A() {
+function Restaurant65A() {
   return (
     <div className="information">
       <h4>65A Restaurant</h4>
