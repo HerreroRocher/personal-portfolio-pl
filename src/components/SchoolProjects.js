@@ -2,6 +2,8 @@ export default function SchoolProjects() {
   return (
     <>
       <Eventlite />
+      <SoybeanYieldPredictor />
+      <LoanApprovalClassifier />
       <FoodFinder />
       <HashSetVSBSTree />
       <EmployeeManagementSystem />
@@ -64,13 +66,85 @@ function Eventlite() {
   );
 }
 
+function LoanApprovalClassifier() {
+  return (
+    <div className="information">
+      <h4>Loan Approval Classifier (Python, Machine Learning)</h4>
+      <p>Location: Manchester, UK</p>
+      <p>Institution: The University of Manchester</p>
+      <p>Duration: April 2025</p>
+      <p>
+        • Developed a binary linear classification model to predict loan
+        approval based on factors such as education, income, credit score, and
+        age.
+      </p>
+      <p>
+        • Implemented a hinge loss objective function and optimised it through
+        gradient descent, adjusting model weights using a dynamic learning rate.
+      </p>
+      <p>
+        • Conducted experiments to analyse model accuracy and loss reduction
+        over multiple iterations, ensuring convergence and stability.
+      </p>
+      <p>
+        • Performed parameter tuning to assess how learning rate affected
+        training accuracy, cost function, test accuracy, and F1 score,
+        identifying an optimal rate for consistent performance.
+      </p>
+      <p>
+        • Technical Skills: Python, NumPy, Data Analysis, Machine Learning,
+        Gradient Descent, Model Evaluation.
+      </p>
+      <p>
+        • Soft Skills: Analytical Thinking, Experimentation, Problem-Solving,
+        Statistical Interpretation.
+      </p>
+    </div>
+  );
+}
+
+function SoybeanYieldPredictor() {
+  return (
+    <div className="information">
+      <h4>Soybean Yield Predictor (Python, MLP Regression)</h4>
+      <p>Location: Manchester, UK</p>
+      <p>Institution: The University of Manchester</p>
+      <p>Duration: April 2025</p>
+      <p>
+        • Designed and trained a Multi-Layer Perceptron (MLP) regression model
+        to predict continuous crop yield based on biological and environmental
+        factors.
+      </p>
+      <p>
+        • Conducted experiments to determine the optimal architecture,
+        including number of hidden layers, activation functions, and maximum
+        iterations, guided by cross-validation, MSE, and R² score metrics.
+      </p>
+      <p>
+        • Performed feature importance analysis to identify which attributes
+        (e.g. biological weight, 300-seed weight, sugar levels, plant height)
+        had the highest influence on yield.
+      </p>
+      <p>
+        • Technical Skills: Python, Scikit-learn, Neural Networks, Cross
+        Validation, Regression Analysis, Model Optimisation.
+      </p>
+      <p>
+        • Soft Skills: Data Interpretation, Research Methodology, Experimental
+        Design, Team Collaboration.
+      </p>
+    </div>
+  );
+}
+
+
 function EmployeeManagementSystem() {
   return (
     <div className="information">
       <h4>Employee Management System (PHP and MySQL)</h4>
       <p>Location: Manchester, UK</p>
       <p>Institution: The University of Manchester</p>
-      <p>Duration: Nov 2024</p>
+      <p>Duration: November 2024</p>
       <p>
         • Developed a comprehensive employee management system using PHP and
         MySQL, creating multiple portals for various functionalities.
@@ -117,7 +191,7 @@ function HashSetVSBSTree() {
       </h4>
       <p>Location: Manchester, UK</p>
       <p>Institution: The University of Manchester</p>
-      <p>Duration: Nov 2024</p>
+      <p>Duration: November 2024</p>
       <p>
         • Developed and implemented various data structures including binary
         search trees and hash sets, focusing on hash table sizing, load factors,
@@ -159,7 +233,7 @@ function MagicBakery() {
       <h4>Magic Bakery (Java Bakery Game)</h4>
       <p>Location: Manchester, UK</p>
       <p>Institution: The University of Manchester</p>
-      <p>Duration: Apr 2024 - May 2024</p>
+      <p>Duration: April 2024 - May 2024</p>
       <p>
         • Developed a Java console simulation of Magic Bakery, incorporating JDK
         packages and adhering to a UML diagram.
@@ -191,7 +265,7 @@ function FoodFinder() {
       <h4>Food Finder (First Year Team Project using Node.js)</h4>
       <p>Location: Manchester, UK</p>
       <p>Institution: The University of Manchester</p>
-      <p>Duration: Sep 2023 - Apr 2024</p>
+      <p>Duration: September 2023 - April 2024</p>
       <p>
         • Collaborated in an 8-person team to create a website, which takes user
         input to return any dishes, or similar, in the area, and giving
@@ -229,7 +303,7 @@ function Dodger() {
       <h4>Dodger (Python Tkinter Game)</h4>
       <p>Location: Manchester, UK</p>
       <p>Institution: The University of Manchester</p>
-      <p>Duration: Oct 2023 - Nov 2023</p>
+      <p>Duration: October 2023 - November 2023</p>
       <p>
         • Solely developed an interactive third-person game using Python, which
         incorporates images, shapes, text, leaderboard, etc., where the user's
@@ -264,7 +338,7 @@ function JungleShooter() {
       <h4>Jungle Shooter (AQA A-Level Project using Python PyGame)</h4>
       <p>Location: London, UK</p>
       <p>Institution: Finchley Catholic High School</p>
-      <p>Duration: Jun 2022 - Feb 2023</p>
+      <p>Duration: June 2022 - February 2023</p>
       <p>
         • Developed a third-person shooter game where the user avoids being shot
         by enemies, and eliminates them to progress to the next of infinitely
