@@ -1,13 +1,14 @@
 import { useState } from 'react';
 import './App.css';
-import Education from './Education';
-import Projects from './Projects'
-import educationImg from './education_img.jpg'; // Ensure you have this image in the src folder
-import projectsImg from './projects_img.jpg'; // Ensure you have this image in the src folder
-import experienceImg from './experience_img.jpg'; // Ensure you have this image in the src folder
-import achievementsImg from './achievements_img.jpg'; // Ensure you have this image in the src folder
-import skillsImg from './skills_img.jpg'; // Ensure you have this image in the src folder
-import languagesImg from './languages_img.jpg'; // Ensure you have this image in the src folder
+import Education from './components/Education';
+import Projects from './components/Projects'
+
+import educationImg from './assets/education_img.jpg';
+import projectsImg from './assets/projects_img.jpg';
+import experienceImg from './assets/experience_img.jpg';
+import achievementsImg from './assets/achievements_img.jpg';
+import skillsImg from './assets/skills_img.jpg';
+import languagesImg from './assets/languages_img.jpg';
 
 
 

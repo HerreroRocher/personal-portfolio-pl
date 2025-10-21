@@ -1,5 +1,5 @@
-import homeProjectsImg from "./home_projects_img.jpg"; // Ensure you have this image in the src folder
-import schoolProjectsImg from "./school_projects_img.jpeg"; // Ensure you have this image in the src folder
+import homeProjectsImg from "../assets/home_projects_img.jpg"; // Ensure you have this image in the src folder
+import schoolProjectsImg from "../assets/school_projects_img.jpeg"; // Ensure you have this image in the src folder
 import { useState } from "react";
 
 export default function Projects() {
