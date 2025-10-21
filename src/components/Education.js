@@ -36,8 +36,8 @@ function ALevels() {
     <div className="information">
       <h4>Finchley Catholic High School</h4>
       <p>Location: London, UK</p>
-      <p>Duration: Sep 2021 ‑ Jun 2023</p>
-      <h5>A‑Levels:</h5>
+      <p>Duration: Sep 2021 - Jun 2023</p>
+      <h5>A-Levels:</h5>
       <p>• Physics - A*</p>
       <p>• Mathematics - A*</p>
       <p>• Computer Science - A</p>
@@ -50,7 +50,7 @@ function GCSEs() {
     <div className="information">
       <h4>Finchley Catholic High School</h4>
       <p>Location: London, UK</p>
-      <p>Duration: Sep 2018 ‑ Jun 2021</p>
+      <p>Duration: Sep 2018 - Jun 2021</p>
       <h5>GCSEs:</h5>
       <p>• Business - 9</p>
       <p>• Biology - 9</p>

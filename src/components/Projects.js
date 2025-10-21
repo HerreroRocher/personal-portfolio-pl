@@ -168,7 +168,7 @@ function MagicBakery() {
       <h4>Magic Bakery (Java Bakery Game)</h4>
       <p>Location: Manchester, UK</p>
       <p>Institution: The University of Manchester</p>
-      <p>Duration: Apr 2024 ‑ May 2024</p>
+      <p>Duration: Apr 2024 - May 2024</p>
       <p>
         • Developed a Java console simulation of Magic Bakery, incorporating JDK
         packages and adhering to a UML diagram.
@@ -183,12 +183,12 @@ function MagicBakery() {
         reliability of game mechanics.
       </p>
       <p>
-        • Technical Skills: Java, Javadoc, UML Diagrams, Git, Object‑Oriented
+        • Technical Skills: Java, Javadoc, UML Diagrams, Git, Object-Oriented
         Programming (OOP), Algorithm Design.
       </p>
       <p>
         • Soft Skills: Time Management, Computational Thinking, Attention to
-        Detail, Problem‑Solving.
+        Detail, Problem-Solving.
       </p>
     </div>
   );
@@ -200,9 +200,9 @@ function FoodFinder() {
       <h4>Food Finder (First Year Team Project using Node.js)</h4>
       <p>Location: Manchester, UK</p>
       <p>Institution: The University of Manchester</p>
-      <p>Duration: Sep 2023 ‑ Apr 2024</p>
+      <p>Duration: Sep 2023 - Apr 2024</p>
       <p>
-        • Collaborated in an 8‑person team to create a website, which takes user
+        • Collaborated in an 8-person team to create a website, which takes user
         input to return any dishes, or similar, in the area, and giving
         comparative results.
       </p>
@@ -215,9 +215,9 @@ function FoodFinder() {
         return relevant data from a local database using a Node.js server.
       </p>
       <p>
-        • My role was the back‑end developer, where I implemented code to
+        • My role was the back-end developer, where I implemented code to
         retrieve data from the database, using an API to respond to requests
-        from the front‑end, as well as dealing with sorting, limits and joining
+        from the front-end, as well as dealing with sorting, limits and joining
         tables in the database.
       </p>
       <p>
@@ -226,7 +226,7 @@ function FoodFinder() {
       </p>
       <p>
         • Soft Skills: Time Management, Teamwork, Presentation Skills,
-        Communication, Problem‑Solving.
+        Communication, Problem-Solving.
       </p>
     </div>
   );
@@ -238,9 +238,9 @@ function Dodger() {
       <h4>Dodger (Python Tkinter Game)</h4>
       <p>Location: Manchester, UK</p>
       <p>Institution: The University of Manchester</p>
-      <p>Duration: Oct 2023 ‑ Nov 2023</p>
+      <p>Duration: Oct 2023 - Nov 2023</p>
       <p>
-        • Solely developed an interactive third‑person game using Python, which
+        • Solely developed an interactive third-person game using Python, which
         incorporates images, shapes, text, leaderboard, etc., where the user’s
         character has to avoid enemies to progress to the next level.
       </p>
@@ -260,7 +260,7 @@ function Dodger() {
       </p>
       <p>• Technical Skills: Python(Tkinter), File Manipulation, Git.</p>
       <p>
-        • Soft Skills: Time Management, Computational Thinking, Problem‑solving,
+        • Soft Skills: Time Management, Computational Thinking, Problem-solving,
         Creativity.
       </p>
     </div>
@@ -270,12 +270,12 @@ function Dodger() {
 function JungleShooter() {
   return (
     <div className="information">
-      <h4>Jungle Shooter (AQA A‑Level Project using Python PyGame)</h4>
+      <h4>Jungle Shooter (AQA A-Level Project using Python PyGame)</h4>
       <p>Location: London, UK</p>
       <p>Institution: Finchley Catholic High School</p>
-      <p>Duration: Jun 2022 ‑ Feb 2023</p>
+      <p>Duration: Jun 2022 - Feb 2023</p>
       <p>
-        • Developed a third‑person shooter game where the user avoids being shot
+        • Developed a third-person shooter game where the user avoids being shot
         by enemies, and eliminates them to progress to the next of infinitely
         produced levels.
       </p>
@@ -313,8 +313,8 @@ function ConnectFour() {
       </h4>
       <p>Duration: Aug 2024</p>
       <p>
-        • Designed and developed a full‑featured Connect Four game using the
-        Unity engine, implementing core gameplay mechanics such as turn‑based
+        • Designed and developed a full-featured Connect Four game using the
+        Unity engine, implementing core gameplay mechanics such as turn-based
         play, win condition detection, and an interactive user interface.
       </p>
       <p>
@@ -327,7 +327,7 @@ function ConnectFour() {
         engagement.
       </p>
       <p>
-        • Currently adding online multiplayer functionality and a single‑player
+        • Currently adding online multiplayer functionality and a single-player
         mode against AI, expanding the game’s replayability and appeal.
       </p>
       <p>
@@ -338,7 +338,7 @@ function ConnectFour() {
       </p>
       <p>
         • Researched and adhered to C# naming conventions to ensure code
-        readability and maintainability, contributing to a well‑organised and
+        readability and maintainability, contributing to a well-organised and
         professional codebase.
       </p>
       <p>
@@ -348,7 +348,7 @@ function ConnectFour() {
       </p>
       <p>• Technical Skills: Unity, C#, Game Development, Git.</p>
       <p>
-        • Soft Skills: Problem‑Solving, Self‑Learning, Project Management,
+        • Soft Skills: Problem-Solving, Self-Learning, Project Management,
         Attention to Detail.
       </p>
     </div>
@@ -371,7 +371,7 @@ function Infoboard() {
       <p>Duration: Jul 2024</p>
       <p>
         • Solely developed a responsive web application using React.js, which
-        integrates multiple API calls to provide users with real‑time
+        integrates multiple API calls to provide users with real-time
         information.
       </p>
       <p>
@@ -400,7 +400,7 @@ function Infoboard() {
         Git, Responsive Design, State Management, Data Handling.
       </p>
       <p>
-        • Soft Skills: Problem‑Solving, Self‑Management, Attention to Detail,
+        • Soft Skills: Problem-Solving, Self-Management, Attention to Detail,
         User Experience Design.
       </p>
     </div>
@@ -517,7 +517,7 @@ function CSVReader() {
         and useState hooks, to manage component state and side effects.
       </p>
       <p>
-        • Enhanced problem‑solving skills through the development of an
+        • Enhanced problem-solving skills through the development of an
         algorithm that checks and validates ISIN numbers.
       </p>
       <p>
@@ -533,7 +533,7 @@ function CSVReader() {
         Git, Data Parsing, Algorithm Development, State Management.
       </p>
       <p>
-        • Soft Skills: Problem‑Solving, Self‑Learning, Attention to Detail,
+        • Soft Skills: Problem-Solving, Self-Learning, Attention to Detail,
         Analytical Thinking, Technical Communication.
       </p>
       <p>
@@ -574,7 +574,7 @@ function PersonalPortfolio() {
         Design.
       </p>
       <p>
-        • Soft Skills: Problem‑Solving, Self‑Learning, Project Management,
+        • Soft Skills: Problem-Solving, Self-Learning, Project Management,
         Attention to Detail.
       </p>
     </div>
