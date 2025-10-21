@@ -1,6 +1,7 @@
 export default function PersonalProjects() {
   return (
     <>
+      <MailManager />
       <Infoboard />
       <ConnectFour />
       <PersonalPortfolio />
@@ -10,7 +11,6 @@ export default function PersonalProjects() {
     </>
   );
 }
-
 
 function ConnectFour() {
   return (
@@ -42,10 +42,10 @@ function ConnectFour() {
       </p>
       <p>
         • Currently adding online multiplayer functionality and a single-player
-        mode against AI, expanding the game’s replayability and appeal.
+        mode against AI, expanding the game's replayability and appeal.
       </p>
       <p>
-        • Employed Unity’s physics system for realistic piece movement, and
+        • Employed Unity's physics system for realistic piece movement, and
         invested extensive time in debugging and testing to ensure a polished
         final product, with comprehensive debug logs capturing various game
         states.
@@ -69,6 +69,71 @@ function ConnectFour() {
   );
 }
 
+function MailManager() {
+  return (
+    <div className="information">
+      <h4>
+        <a
+          href="https://github.com/HerreroRocher/mailmanager"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          MailManager
+        </a>
+        {" "} (Outlook Email Management System using .NET & Azure)
+      </h4>
+      <p>Duration: August 2025 - September 2025</p>
+      <p>
+        • Developed a Microsoft 365-integrated email management system inspired
+        by Ideagen MailManager, designed to streamline email filing and
+        retrieval directly from Outlook.
+      </p>
+      <p>
+        • Built the front end in vanilla JavaScript (npm), integrating with
+        Azure Active Directory registration to obtain tokens with appropriate
+        scopes for single sign-on (SSO).
+      </p>
+      <p>
+        • Implemented OAuth 2.0 authentication through Azure
+        AD to enable secure, delegated access to Microsoft 365 data.
+      </p>
+      <p>
+        • Designed and developed a .NET MVC back end responsible for receiving
+        API calls, performing file and email operations via Microsoft Graph API,
+        and managing application logic and security.
+      </p>
+      <p>
+        • Integrated PostgreSQL for persistent storage of filing locations and
+        smart-suggestion data, using SQL functions to optimise database queries.
+      </p>
+      <p>
+        • Developed middleware for robust exception handling, token validation
+        and swapping, and secure communication between the client, Graph API,
+        and the database.
+      </p>
+      <p>
+        • Wrote comprehensive unit tests to validate core components, ensuring
+        reliability across authentication, Graph operations, and data layers.
+      </p>
+      <p>
+        • Deployed and hosted the application on Azure App Service, leveraging
+        Microsoft's cloud platform for scalability and enterprise-level
+        reliability.
+      </p>
+      <p>
+        • Technical Skills: .NET 9, C#, JavaScript, Microsoft
+        Graph API, Azure AD (OAuth 2.0), PostgreSQL, SQL Functions,
+        Middleware, Unit Testing, Azure App Service, API Design.
+      </p>
+      <p>
+        • Soft Skills: System Architecture, Problem-Solving, Secure Design,
+        Integration Planning, and Code Quality.
+      </p>
+    </div>
+  );
+}
+
+
 function Infoboard() {
   return (
     <div className="information">
@@ -80,7 +145,14 @@ function Infoboard() {
         >
           Infoboard
         </a>{" "}
-        (Web app using React.js) - <a href="https://github.com/HerreroRocher/infoboard" target="_blank" rel="noopener noreferrer">Source Code</a>
+        (Web app using React.js) -{" "}
+        <a
+          href="https://github.com/HerreroRocher/infoboard"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Source Code
+        </a>
       </h4>
       <p>Duration: July 2024</p>
       <p>
@@ -303,5 +375,3 @@ function PersonalPortfolio() {
     </div>
   );
 }
-
-

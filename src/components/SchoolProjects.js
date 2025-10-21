@@ -179,7 +179,7 @@ function Dodger() {
       <p>Duration: Oct 2023 - Nov 2023</p>
       <p>
         • Solely developed an interactive third-person game using Python, which
-        incorporates images, shapes, text, leaderboard, etc., where the user’s
+        incorporates images, shapes, text, leaderboard, etc., where the user's
         character has to avoid enemies to progress to the next level.
       </p>
       <p>
