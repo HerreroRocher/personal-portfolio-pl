@@ -1,4 +1,4 @@
-import projectsImg from '../assets/projects_img.jpg';
+import projectsImage from '../assets/projects_img.jpg';
 
 
 import homeProjectsImg from "../assets/home_projects_img.jpg"; 
@@ -56,6 +56,6 @@ const renderContent = () => {
 }
 
 Projects.title = "Projects";
-Projects.image = projectsImg;
+Projects.image = projectsImage;
 
 export default Projects;

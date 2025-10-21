@@ -1,4 +1,6 @@
-export default function Languages() {
+import languagesImage from "../assets/languages_img.jpg";
+
+function Languages() {
   return (
     <div className="information">
       <h3>Languages</h3>
@@ -10,3 +12,8 @@ export default function Languages() {
     </div>
   );
 }
+
+Languages.title = "Languages";
+Languages.image = languagesImage;
+
+export default Languages;

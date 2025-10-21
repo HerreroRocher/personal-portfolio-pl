@@ -1,4 +1,6 @@
-export default function Achievements() {
+import achievementsImage from "../assets/achievements_img.jpg";
+
+function Achievements() {
   return (
     <div className="information">
       <h3>Achievements</h3>
@@ -21,3 +23,8 @@ export default function Achievements() {
     </div>
   );
 }
+
+Achievements.title = "Achievements";
+Achievements.image = achievementsImage;
+
+export default Achievements;

@@ -1,4 +1,4 @@
-import educationImg from "../assets/education_img.jpg";
+import educationImage from "../assets/education_img.jpg";
 
 function Education() {
   return (
@@ -68,6 +68,6 @@ function GCSEs() {
 }
 
 Education.title = "Education";
-Education.image = educationImg;
+Education.image = educationImage;
 
 export default Education;

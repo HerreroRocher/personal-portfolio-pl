@@ -1,4 +1,6 @@
-export default function Skills() {
+import skillsImage from "../assets/skills_img.jpg";
+
+function Skills() {
   return (
     <div className="information">
       <h3>Skills</h3>
@@ -26,3 +28,9 @@ export default function Skills() {
     </div>
   );
 }
+
+
+Skills.title = "Skills";
+Skills.image = skillsImage;
+
+export default Skills;

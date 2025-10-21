@@ -9,10 +9,6 @@ import Skills from './components/Skills';
 import Achievements from './components/Achievements';
 import Languages from './components/Languages';
 
-import experienceImg from './assets/experience_img.jpg';
-import achievementsImg from './assets/achievements_img.jpg';
-import skillsImg from './assets/skills_img.jpg';
-import languagesImg from './assets/languages_img.jpg';
 
 
 
@@ -100,6 +96,10 @@ function App() {
         </section>
         <Section component={<Education />} />
         <Section component={<Projects />} />
+        <Section component={<Experience />} />
+        <Section component={<Skills />} />
+        <Section component={<Achievements />} />
+        <Section component={<Languages />} />
       </main>
       <footer>
         <p>&copy; 2024 Daniel Herrero.</p>
