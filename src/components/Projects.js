@@ -1,3 +1,6 @@
+import projectsImg from '../assets/projects_img.jpg';
+
+
 import homeProjectsImg from "../assets/home_projects_img.jpg"; 
 import schoolProjectsImg from "../assets/school_projects_img.jpeg"; 
 
@@ -7,7 +10,7 @@ import PersonalProjects from "./PersonalProjects";
 
 import { useState } from "react";
 
-export default function Projects() {
+function Projects() {
   return (
     <>
       <Subsection title="Personal Projects" imageUrl={homeProjectsImg} />
@@ -51,3 +54,8 @@ const renderContent = () => {
     </div>
   );
 }
+
+Projects.title = "Projects";
+Projects.image = projectsImg;
+
+export default Projects;

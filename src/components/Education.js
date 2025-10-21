@@ -1,5 +1,6 @@
+import educationImg from "../assets/education_img.jpg";
 
-export default function Education() {
+function Education() {
   return (
     <>
       <Uni />
@@ -65,3 +66,8 @@ function GCSEs() {
     </div>
   );
 }
+
+Education.title = "Education";
+Education.image = educationImg;
+
+export default Education;
