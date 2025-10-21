@@ -1,6 +1,7 @@
 export default function SchoolProjects() {
   return (
     <>
+      <Eventlite />
       <FoodFinder />
       <HashSetVSBSTree />
       <EmployeeManagementSystem />
@@ -8,6 +9,58 @@ export default function SchoolProjects() {
       <Dodger />
       <JungleShooter />
     </>
+  );
+}
+
+function Eventlite() {
+  return (
+    <div className="information">
+      <h4>Eventlite (Java, Spring, and Maven)</h4>
+      <p>Location: Manchester, UK</p>
+      <p>Institution: The University of Manchester</p>
+      <p>Duration: September 2024 - May 2025</p>
+      <p>
+        • Collaborated in a team of seven to develop an event management system
+        inspired by Eventbrite, implementing a robust back end using Spring MVC
+        and Maven.
+      </p>
+      <p>
+        • Followed a Test-Driven Development (TDD) pipeline, writing unit and
+        integration tests throughout the development lifecycle to ensure
+        reliability and maintainability.
+      </p>
+      <p>
+        • Designed and implemented controllers, models, and services within an
+        MVC architecture to handle event and venue management with a map representation and a blog.
+      </p>
+      <p>
+        • Utilised Spring annotations for dependency injection, configuration,
+        and routing, ensuring modular and well-structured code.
+      </p>
+      <p>
+        • Integrated the application with a relational database to persist event
+        and venue data, using JPA and Hibernate for ORM functionality.
+      </p>
+      <p>
+        • Implemented RESTful endpoints to support CRUD operations for events and venues.
+      </p>
+      <p>
+        • Conducted comprehensive unit and integration testing using JUnit and
+        Mockito, maintaining high code coverage and code quality.
+      </p>
+      <p>
+        • Used Maven for dependency management and project build automation,
+        ensuring consistent environment configuration across the team.
+      </p>
+      <p>
+        • Technical Skills: Java, Spring Framework (MVC), Maven, JPA/Hibernate,
+        REST API Design, JUnit, Mockito, SQL, TDD.
+      </p>
+      <p>
+        • Soft Skills: Team Collaboration, Test-Driven Development, Version
+        Control, Communication, Code Review, Problem-Solving.
+      </p>
+    </div>
   );
 }
 
