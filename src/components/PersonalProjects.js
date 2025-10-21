@@ -25,7 +25,7 @@ function ConnectFour() {
         </a>{" "}
         (Game using Unity/C#)
       </h4>
-      <p>Duration: Aug 2024</p>
+      <p>Duration: August 2024</p>
       <p>
         • Designed and developed a full-featured Connect Four game using the
         Unity engine, implementing core gameplay mechanics such as turn-based
@@ -80,9 +80,9 @@ function Infoboard() {
         >
           Infoboard
         </a>{" "}
-        (Web app using React.js)
+        (Web app using React.js) - <a href="https://github.com/HerreroRocher/infoboard" target="_blank" rel="noopener noreferrer">Source Code</a>
       </h4>
-      <p>Duration: Jul 2024</p>
+      <p>Duration: July 2024</p>
       <p>
         • Solely developed a responsive web application using React.js, which
         integrates multiple API calls to provide users with real-time
@@ -134,7 +134,7 @@ function HigherOrLowerGame() {
         </a>{" "}
         (Python Game)
       </h4>
-      <p>Duration: Nov 2024</p>
+      <p>Duration: November 2024</p>
       <p>
         • Developed an interactive higher or lower game using Python, allowing
         users to personalise game rules and settings.
@@ -174,9 +174,9 @@ function GradeCalculator() {
         >
           Grade Calculator
         </a>{" "}
-        (CLI Tool)
+        (Python CLI Tool)
       </h4>
-      <p>Duration: Oct 2024</p>
+      <p>Duration: October 2024</p>
       <p>
         • Developed a command-line interface (CLI) tool in Python to calculate
         the minimum exam score needed to achieve a target grade based on
@@ -261,7 +261,16 @@ function CSVReader() {
 function PersonalPortfolio() {
   return (
     <div className="information">
-      <h4>Personal Portfolio (Web App using React.js)</h4>
+      <h4>
+        <a
+          href="https://github.com/HerreroRocher/personal-portfolio-pl"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Personal Portfolio{" "}
+        </a>
+        (Web App using React.js)
+      </h4>
       <p>Duration: Ongoing</p>
       <p>
         • Designed and developed a personal portfolio website using React.js,

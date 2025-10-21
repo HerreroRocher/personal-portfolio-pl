@@ -1,5 +1,5 @@
-import homeProjectsImg from "../assets/home_projects_img.jpg"; // Ensure you have this image in the src folder
-import schoolProjectsImg from "../assets/school_projects_img.jpeg"; // Ensure you have this image in the src folder
+import homeProjectsImg from "../assets/home_projects_img.jpg"; 
+import schoolProjectsImg from "../assets/school_projects_img.jpeg"; 
 
 import SchoolProjects from "./SchoolProjects";
 import PersonalProjects from "./PersonalProjects";
