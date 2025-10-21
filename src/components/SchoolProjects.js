@@ -1,4 +1,6 @@
-export default function SchoolProjects() {
+import schoolProjectsImage from "../assets/school_projects_img.jpeg";
+
+function SchoolProjects() {
   return (
     <>
       <Eventlite />
@@ -33,7 +35,8 @@ function Eventlite() {
       </p>
       <p>
         • Designed and implemented controllers, models, and services within an
-        MVC architecture to handle event and venue management with a map representation and a blog.
+        MVC architecture to handle event and venue management with a map
+        representation and a blog.
       </p>
       <p>
         • Utilised Spring annotations for dependency injection, configuration,
@@ -44,7 +47,8 @@ function Eventlite() {
         and venue data, using JPA and Hibernate for ORM functionality.
       </p>
       <p>
-        • Implemented RESTful endpoints to support CRUD operations for events and venues.
+        • Implemented RESTful endpoints to support CRUD operations for events
+        and venues.
       </p>
       <p>
         • Conducted comprehensive unit and integration testing using JUnit and
@@ -116,9 +120,9 @@ function SoybeanYieldPredictor() {
         factors.
       </p>
       <p>
-        • Conducted experiments to determine the optimal architecture,
-        including number of hidden layers, activation functions, and maximum
-        iterations, guided by cross-validation, MSE, and R² score metrics.
+        • Conducted experiments to determine the optimal architecture, including
+        number of hidden layers, activation functions, and maximum iterations,
+        guided by cross-validation, MSE, and R² score metrics.
       </p>
       <p>
         • Performed feature importance analysis to identify which attributes
@@ -136,7 +140,6 @@ function SoybeanYieldPredictor() {
     </div>
   );
 }
-
 
 function EmployeeManagementSystem() {
   return (
@@ -362,3 +365,8 @@ function JungleShooter() {
     </div>
   );
 }
+
+SchoolProjects.title = "School Projects";
+SchoolProjects.image = schoolProjectsImage;
+
+export default SchoolProjects;

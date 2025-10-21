@@ -1,9 +1,5 @@
 import projectsImage from '../assets/projects_img.jpg';
 
-
-import homeProjectsImg from "../assets/home_projects_img.jpg"; 
-import schoolProjectsImg from "../assets/school_projects_img.jpeg"; 
-
 import SchoolProjects from "./SchoolProjects";
 import PersonalProjects from "./PersonalProjects";
 
@@ -13,30 +9,24 @@ import { useState } from "react";
 function Projects() {
   return (
     <>
-      <Subsection title="Personal Projects" imageUrl={homeProjectsImg} />
-      <Subsection title="School Projects" imageUrl={schoolProjectsImg} />
+      <Subsection component={<PersonalProjects />} />
+      <Subsection component={<SchoolProjects />} />
     </>
   );
 }
 
-function Subsection({ title, imageUrl }) {
+function Subsection({ component }) {
   const [isExpanded, setIsExpanded] = useState(false);
-const renderContent = () => {
-    switch (title) {
-      case 'Personal Projects':
-        return <PersonalProjects />;
-      case 'School Projects':
-        return <SchoolProjects />
-      default:
-        return null;
-    }
-  };
+  const { type } = component;
+  const title = type.title;
+  const image = type.image;
+
   return (
     <div>
       <div className="subsection-container">
         <div
           className="subsection"
-          style={{ backgroundImage: `url(${imageUrl})` }}
+          style={{ backgroundImage: `url(${image})` }}
           onClick={() => setIsExpanded(!isExpanded)}
         >
           <div className="section-content">
@@ -48,7 +38,7 @@ const renderContent = () => {
 
       {isExpanded && (
         <div>
-          {renderContent()}
+          {component}
         </div>
       )}
     </div>

@@ -1,4 +1,6 @@
-export default function PersonalProjects() {
+import personalProjectsImage from "../assets/home_projects_img.jpg";
+
+function PersonalProjects() {
   return (
     <>
       <MailManager />
@@ -79,8 +81,8 @@ function MailManager() {
           rel="noopener noreferrer"
         >
           MailManager
-        </a>
-        {" "} (Outlook Email Management System using .NET & Azure)
+        </a>{" "}
+        (Outlook Email Management System using .NET & Azure)
       </h4>
       <p>Duration: August 2025 - September 2025</p>
       <p>
@@ -94,8 +96,8 @@ function MailManager() {
         scopes for single sign-on (SSO).
       </p>
       <p>
-        • Implemented OAuth 2.0 authentication through Azure
-        AD to enable secure, delegated access to Microsoft 365 data.
+        • Implemented OAuth 2.0 authentication through Azure AD to enable
+        secure, delegated access to Microsoft 365 data.
       </p>
       <p>
         • Designed and developed a .NET MVC back end responsible for receiving
@@ -121,9 +123,9 @@ function MailManager() {
         reliability.
       </p>
       <p>
-        • Technical Skills: .NET 9, C#, JavaScript, Microsoft
-        Graph API, Azure AD (OAuth 2.0), PostgreSQL, SQL Functions,
-        Middleware, Unit Testing, Azure App Service, API Design.
+        • Technical Skills: .NET 9, C#, JavaScript, Microsoft Graph API, Azure
+        AD (OAuth 2.0), PostgreSQL, SQL Functions, Middleware, Unit Testing,
+        Azure App Service, API Design.
       </p>
       <p>
         • Soft Skills: System Architecture, Problem-Solving, Secure Design,
@@ -132,7 +134,6 @@ function MailManager() {
     </div>
   );
 }
-
 
 function Infoboard() {
   return (
@@ -375,3 +376,8 @@ function PersonalPortfolio() {
     </div>
   );
 }
+
+PersonalProjects.title = "Personal Projects";
+PersonalProjects.image = personalProjectsImage;
+
+export default PersonalProjects;
