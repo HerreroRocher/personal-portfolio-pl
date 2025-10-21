@@ -5,6 +5,7 @@ import './App.css';
 import Education from './components/Education';
 import Projects from './components/Projects'
 import Experience from './components/Experience';
+import Skills from './components/Skills';
 
 import educationImg from './assets/education_img.jpg';
 import projectsImg from './assets/projects_img.jpg';
@@ -15,20 +16,6 @@ import languagesImg from './assets/languages_img.jpg';
 
 
 
-
-function SkillsInfo() {
-  return (
-    <div className="information">
-      <h3>Skills</h3>
-      <h4>Programming</h4>
-      <p>Python (PyGame, Tkinter, matplotlib), HTML/CSS, JavaScript (Node.js, React.js), MySQL, Java, Git, Unity, PHP, C, C#, Shell Scripting, Data Parsing, Algorithm Development, State Management, API Interaction.</p>
-      <h4>Soft Skills</h4>
-      <p>Problem-Solving, Analytical Thinking, Attention to Detail, Self-Learning, Teamwork, Time Management, Communication, Technical Communication, Project Management, Resilience, Passion for Computing.</p>
-      <h4>Miscellaneous</h4>
-      <p>ARM Assembly Language, Microsoft Office, Command Prompt, Git Bash, Unix-like systems, CLIs, pip, npm</p>
-    </div>
-  );
-}
 
 function AchievementsInfo() {
   return (
@@ -70,7 +57,7 @@ function Section({ title, imageUrl }) {
       case 'Experience':
         return <Experience />;
       case 'Skills':
-        return <SkillsInfo />;
+        return <Skills />;
       case 'Achievements':
         return <AchievementsInfo />;
       case 'Languages':
